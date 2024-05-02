@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box=sizing: border=box;
+    font-family: Mythica W01 Regular;
+  }
+
+  body  {
+    background-color: #000000;
+
+  }
+
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: #030a16;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z=index: 100;
+  }
+
+  .logo {
+     font-size: 25px;
+     color: aliceblue;
+     text-decoration: none;
+     font-weight: 500;
+
+  }
+
+  .navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+
+  }
+
+  .navbar a:hover,
+  .navbar a.active {
+    color: #696969;
+
+  }
